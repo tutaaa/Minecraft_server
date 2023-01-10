@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1672166168559
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1672191024959
+  login: 1672190241272
+money: '0'
+last-account-name: Mix
+logoutlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 7.417629283270355
+  y: 65.0
+  z: 382.49342943813576
+  yaw: 66.6580810546875
+  pitch: 28.784507751464844
+lastlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 20.10412339789581
+  y: 61.0
+  z: 245.11655682490368
+  yaw: 153.75390625
+  pitch: -1.2685480117797852
+nickname: TheBoxs
+homes:
+  home:
+    world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+    world-name: world
+    x: 7.7213052502794275
+    y: 65.0
+    z: 382.3907550094286
+    yaw: 2.0064697265625
+    pitch: 6.856865882873535

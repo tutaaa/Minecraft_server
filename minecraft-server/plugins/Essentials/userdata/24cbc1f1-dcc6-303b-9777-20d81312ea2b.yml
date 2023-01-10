@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1673190324532
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673193966966
+  login: 1673187445404
+money: '0'
+last-account-name: Azthorax
+lastlocation:
+  world: 7314eca7-1946-448f-871e-940e19b9dd73
+  world-name: world_nether
+  x: 0.3835588627933054
+  y: 48.0
+  z: -33.13544048877263
+  yaw: -137.98704528808594
+  pitch: 72.29981994628906
+homes:
+  home:
+    world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+    world-name: world
+    x: -60.88453317353609
+    y: 69.0
+    z: 378.6306148550124
+    yaw: 17.03033447265625
+    pitch: 10.800178527832031
+logoutlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: -59.3041203073857
+  y: 63.5
+  z: 413.2653583608156
+  yaw: 84.71044921875
+  pitch: 13.80036735534668

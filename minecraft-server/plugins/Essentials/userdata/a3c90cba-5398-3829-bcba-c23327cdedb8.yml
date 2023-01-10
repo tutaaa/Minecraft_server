@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1673200915840
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673202776810
+  login: 1673191866153
+money: '0'
+lastlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: -1878.9948040849004
+  y: 56.79080232197432
+  z: 431.9154332356064
+  yaw: 18.98699951171875
+  pitch: 37.04976272583008
+logoutlocation:
+  world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+  world-name: world
+  x: 49.70645697250062
+  y: 65.0
+  z: 380.1522149789816
+  yaw: 109.9892578125
+  pitch: 27.74994659423828
+last-account-name: KaoKaofang146788
+homes:
+  home:
+    world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
+    world-name: world
+    x: 50.07225715283725
+    y: 64.0
+    z: 368.9084943500277
+    yaw: -88.16461181640625
+    pitch: 8.406959533691406
