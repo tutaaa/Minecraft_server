@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
@@ -11,33 +11,33 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1673270422209
+  lastteleport: 1673458190215
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1673270660307
-  login: 1673263150406
+  logout: 1673459022616
+  login: 1673449588509
   kits:
     tools: 1672080890882
 money: '0'
 lastlocation:
   world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
   world-name: world
-  x: 5.537773066007577
-  y: 63.5
-  z: 413.8062248022409
-  yaw: 76.34996032714844
-  pitch: -1.49998939037323
+  x: -111.6166508132832
+  y: 74.62605941672133
+  z: 413.3585058135127
+  yaw: -98.129638671875
+  pitch: 4.805061340332031
 last-account-name: TinnZx
 logoutlocation:
   world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
   world-name: world
-  x: -82.8105029742407
-  y: 64.0
-  z: 413.25731422699795
-  yaw: 102.98828125
-  pitch: -25.296579360961914
+  x: 119.69999998807907
+  y: 77.27709196466147
+  z: 382.5066948110538
+  yaw: 37.259765625
+  pitch: 4.917346477508545
 homes:
   home:
     world: bcd8d0da-229e-4aa7-8e97-494e712a51f2

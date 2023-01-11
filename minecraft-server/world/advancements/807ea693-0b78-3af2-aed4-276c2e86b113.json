@@ -377,6 +377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2566-01-11 22:38:01 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-23 02:14:13 +0700"
@@ -1055,6 +1061,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2566-01-11 22:34:36 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2566-01-11 22:18:15 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
     "criteria": {
       "has_polished_diorite": "2565-12-28 00:30:40 +0700"
@@ -1472,18 +1490,22 @@
       "minecraft:birch_forest": "2022-12-23 01:59:22 +0700",
       "minecraft:windswept_hills": "2566-01-07 20:10:13 +0700",
       "minecraft:bamboo_jungle": "2566-01-07 21:09:10 +0700",
+      "minecraft:badlands": "2566-01-11 22:16:53 +0700",
       "minecraft:beach": "2022-12-23 01:56:13 +0700",
       "minecraft:dark_forest": "2566-01-07 21:08:45 +0700",
       "minecraft:river": "2022-12-23 00:32:44 +0700",
       "minecraft:lukewarm_ocean": "2566-01-09 23:31:36 +0700",
       "minecraft:stony_shore": "2565-12-29 01:34:10 +0700",
+      "minecraft:dripstone_caves": "2566-01-11 22:16:09 +0700",
       "minecraft:grove": "2022-12-23 21:18:04 +0700",
       "minecraft:swamp": "2566-01-07 20:11:20 +0700",
       "minecraft:forest": "2022-12-23 00:34:06 +0700",
       "minecraft:lush_caves": "2565-12-29 02:31:49 +0700",
+      "minecraft:desert": "2566-01-11 22:17:09 +0700",
       "minecraft:ocean": "2022-12-23 21:02:05 +0700",
       "minecraft:jungle": "2565-12-29 01:54:56 +0700",
       "minecraft:flower_forest": "2022-12-23 21:04:49 +0700",
+      "minecraft:frozen_peaks": "2566-01-11 22:25:25 +0700",
       "minecraft:old_growth_birch_forest": "2022-12-23 01:59:30 +0700",
       "minecraft:meadow": "2022-12-23 01:29:04 +0700",
       "minecraft:plains": "2022-12-23 00:28:26 +0700"
@@ -1904,6 +1926,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2565-12-31 23:08:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2566-01-11 22:17:05 +0700"
     },
     "done": true
   },
@@ -2867,6 +2895,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2566-01-11 22:34:36 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-12-23 01:15:31 +0700"
@@ -3014,6 +3048,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-12-23 02:14:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2566-01-11 22:34:36 +0700"
     },
     "done": true
   },
