@@ -2145,6 +2145,7 @@
       "golden_apple": "2022-12-23 01:53:21 +0700",
       "bread": "2565-12-28 01:21:22 +0700",
       "rotten_flesh": "2022-12-23 01:23:02 +0700",
+      "glow_berries": "2566-01-14 01:22:44 +0700",
       "cooked_chicken": "2022-12-24 00:09:43 +0700",
       "cooked_salmon": "2566-01-01 01:10:36 +0700"
     },
@@ -2838,6 +2839,12 @@
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2565-12-31 23:29:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2566-01-14 00:38:26 +0700"
     },
     "done": true
   },

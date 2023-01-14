@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2566-01-14 16:09:29 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-12-23 01:58:23 +0700"
@@ -1496,6 +1502,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2022-12-23 21:26:14 +0700",
       "minecraft:taiga": "2022-12-23 21:40:42 +0700",
+      "minecraft:deep_ocean": "2566-01-14 15:06:50 +0700",
       "minecraft:sunflower_plains": "2022-12-23 00:27:11 +0700",
       "minecraft:birch_forest": "2566-01-09 18:21:23 +0700",
       "minecraft:windswept_hills": "2566-01-09 18:54:14 +0700",
@@ -1509,6 +1516,7 @@
       "minecraft:stony_shore": "2565-12-29 01:35:33 +0700",
       "minecraft:snowy_plains": "2566-01-09 18:54:50 +0700",
       "minecraft:snowy_taiga": "2566-01-09 18:54:48 +0700",
+      "minecraft:dripstone_caves": "2566-01-14 14:49:18 +0700",
       "minecraft:swamp": "2566-01-07 20:27:38 +0700",
       "minecraft:forest": "2022-12-23 01:08:25 +0700",
       "minecraft:lush_caves": "2566-01-09 18:27:41 +0700",
@@ -1762,12 +1770,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2566-01-14 16:09:08 +0700",
       "minecraft:nether_wastes": "2565-12-31 03:16:26 +0700",
       "minecraft:soul_sand_valley": "2565-12-31 03:21:40 +0700",
       "minecraft:basalt_deltas": "2565-12-31 03:18:53 +0700",
       "minecraft:warped_forest": "2566-01-09 19:08:30 +0700"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
@@ -3109,6 +3118,12 @@
   "minecraft:recipes/decorations/green_candle": {
     "criteria": {
       "has_green_dye": "2566-01-07 23:39:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2566-01-14 16:09:29 +0700"
     },
     "done": true
   },

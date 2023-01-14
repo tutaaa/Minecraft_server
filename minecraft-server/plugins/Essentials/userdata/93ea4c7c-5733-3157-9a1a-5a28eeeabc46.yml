@@ -11,33 +11,33 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1673458190215
+  lastteleport: 1673688269451
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1673459022616
-  login: 1673449588509
+  logout: 1673711129885
+  login: 1673681652526
   kits:
     tools: 1672080890882
 money: '0'
 lastlocation:
   world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
   world-name: world
-  x: -111.6166508132832
-  y: 74.62605941672133
-  z: 413.3585058135127
-  yaw: -98.129638671875
-  pitch: 4.805061340332031
+  x: 97.34333290999808
+  y: 57.0
+  z: 341.6851847664884
+  yaw: 95.37794494628906
+  pitch: -4.9119439125061035
 last-account-name: TinnZx
 logoutlocation:
   world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
   world-name: world
-  x: 119.69999998807907
-  y: 77.27709196466147
-  z: 382.5066948110538
-  yaw: 37.259765625
-  pitch: 4.917346477508545
+  x: 75.98660641580169
+  y: 69.0
+  z: 352.1138285839697
+  yaw: 31.1229248046875
+  pitch: 33.77086639404297
 homes:
   home:
     world: bcd8d0da-229e-4aa7-8e97-494e712a51f2
@@ -47,3 +47,18 @@ homes:
     z: 348.0696631641804
     yaw: 1.73687744140625
     pitch: 16.10336685180664
+mail:
+- legacy: false
+  read: true
+  message: dfeguiohfsihfesf
+  sender-name: Console
+  sender-uuid: 'null'
+  timestamp: 1673686217635
+  expire: 0
+- legacy: false
+  read: true
+  message: wdkawpda
+  sender-name: TinnZx
+  sender-uuid: 93ea4c7c-5733-3157-9a1a-5a28eeeabc46
+  timestamp: 1673686191606
+  expire: 0

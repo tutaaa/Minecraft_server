@@ -1,228 +1,378 @@
-[00:45:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:45:20] [Worker-Main-2/INFO]: Loaded 7 recipes
-[00:45:20] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[00:45:20] [Server thread/INFO]: Loading properties
-[00:45:20] [Server thread/INFO]: This server is running Paper version git-Paper-372 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: bed5cb2)
-[00:45:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:45:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:45:20] [Server thread/INFO]: Default game type: SURVIVAL
-[00:45:20] [Server thread/INFO]: Generating keypair
-[00:45:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:45:21] [Server thread/INFO]: Using default channel type
-[00:45:21] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[00:45:21] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[00:45:21] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[00:45:23] [Server thread/WARN]: Legacy plugin isSlimeChunk v1.0.1 does not specify an api-version.
-[00:45:23] [Server thread/WARN]: Legacy plugin SimpleSit v1.7 does not specify an api-version.
-[00:45:23] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.6.8-Release
-[00:45:23] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
-[00:45:23] [Server thread/INFO]: [MarriageMaster] File "/IMessage.jar" extracted successfully!
-[00:45:23] [Server thread/INFO]: [UltimateTimber] Loading UltimateTimber v2.3.4
-[00:45:23] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.4
-[00:45:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[00:45:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@285f248a]
-[00:45:23] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.1
-[00:45:23] [Server thread/INFO]: [PixelPrinter] Loading PixelPrinter v1.0.46
-[00:45:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
-[00:45:23] [Server thread/INFO]: [isSlimeChunk] Loading isSlimeChunk v1.0.1
-[00:45:23] [Server thread/INFO]: [BlockLocker] Loading BlockLocker v1.11
-[00:45:23] [Server thread/INFO]: [SimpleSit] Loading SimpleSit v1.7
-[00:45:23] [Server thread/INFO]: [DivineDrop] Loading DivineDrop v2.9
-[00:45:23] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.48
-[00:45:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:45:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[00:45:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[00:45:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[00:45:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[00:45:24] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.11
-[00:45:24] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_door, ignoring it
-[00:45:24] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_fence_gate, ignoring it
-[00:45:24] [Server thread/WARN]: [BlockLocker] Cannot recognize material mangrove_trapdoor, ignoring it
-[00:45:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:45:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:45:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:45:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:45:24] [Server thread/INFO]: Preparing level "world"
-[00:45:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:45:25] [Server thread/INFO]: Time elapsed: 144 ms
-[00:45:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:45:25] [Server thread/INFO]: Time elapsed: 36 ms
-[00:45:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:45:25] [Server thread/INFO]: Time elapsed: 37 ms
-[00:45:25] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.6.8-Release
-[00:45:25] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
-[00:45:25] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
-[00:45:25] [Server thread/INFO]: [MarriageMaster] No compatible backpack plugin found.
-[00:45:25] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
-[00:45:25] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Starting...
-[00:45:25] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Start completed.
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Loading marriages ...
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Marriages loaded
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Loading priests ...
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Priests loaded
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Loading players ...
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Players loaded
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Writing marriages into cache ...
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Marriages loaded into cache
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Loading homes ...
-[00:45:25] [Thread-9/INFO]: [MarriageMaster] Homes loaded
-[00:45:26] [Thread-8/WARN]: [MarriageMaster] [31mThe updater could not find any files for the project id 74734 [0m
-[00:45:26] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[00:45:26] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
-[00:45:26] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 828 items.
-[00:45:26] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
-[00:45:26] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v2.3.4
-[00:45:26] [Server thread/INFO]:  
-[00:45:26] [Server thread/INFO]: =============================
-[00:45:26] [Server thread/INFO]: UltimateTimber 2.3.4 by Songoda <3!
-[00:45:26] [Server thread/INFO]: Action: Enabling...
-[00:45:26] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
-[00:45:26] [Server thread/INFO]: [SongodaCore] [SongodaCore] Hooked UltimateTimber.
-[00:45:26] [Server thread/INFO]: =============================
-[00:45:26] [Server thread/INFO]:  
-[00:45:26] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.4
-[00:45:26] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
-[00:45:27] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[00:45:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[00:45:27] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.1
-[00:45:27] [Server thread/INFO]: Looking for compatible plugins...
-[00:45:27] [Server thread/INFO]: [PixelPrinter] Enabling PixelPrinter v1.0.46
-[00:45:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[00:45:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[00:45:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[00:45:27] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[00:45:27] [Server thread/INFO]: [Essentials] Using locale en_US
-[00:45:27] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[00:45:27] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[00:45:27] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
-[00:45:27] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
-[00:45:27] [Server thread/INFO]: [isSlimeChunk] Enabling isSlimeChunk v1.0.1*
-[00:45:27] [Server thread/INFO]: [SimpleSit] Enabling SimpleSit v1.7*
-[00:45:27] [Server thread/INFO]: [DivineDrop] Enabling DivineDrop v2.9
-[00:45:27] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.48
-[00:45:27] [Server thread/INFO]: §a**************************************§r
-[00:45:27] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r Loading...
-[00:45:27] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r plugins\SinglePlayerSleep\config.yml
-[00:45:27] [Server thread/INFO]: Checking for updates...
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r plugins\SinglePlayerSleep\permissions.yml
-[00:45:28] [Server thread/INFO]: §a**************************************§r
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r is ENABLED
-[00:45:28] [Server thread/INFO]: §a**************************************§r
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r This server is running Paper version git-Paper-372 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT)
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r vardebug=false debug=false in plugins\SinglePlayerSleep/config.yml
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r jarfilename=D:\Github\Minecraft_server\minecraft-server\plugins\SinglePlayerSleep-1.13_2.13.48.jar
-[00:45:28] [Server thread/INFO]: Running delayed init tasks
-[00:45:28] [Server thread/INFO]: Done (8.050s)! For help, type "help"
-[00:45:28] [Server thread/INFO]: Stopping server
-[00:45:28] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.48
-[00:45:28] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] §6Fetching version information...
-[00:45:28] [Server thread/INFO]: §a**************************************§r
-[00:45:28] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r is DISABLED
-[00:45:28] [Server thread/INFO]: §a**************************************§r
-[00:45:28] [Server thread/INFO]: [DivineDrop] Disabling DivineDrop v2.9
-[00:45:28] [Server thread/INFO]: [SimpleSit] Disabling SimpleSit v1.7
-[00:45:28] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.11
-[00:45:28] [Server thread/INFO]: [isSlimeChunk] Disabling isSlimeChunk v1.0.1
-[00:45:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
-[00:45:28] [Server thread/INFO]: [PixelPrinter] Disabling PixelPrinter v1.0.46
-[00:45:28] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.1
-[00:45:28] [Server thread/INFO]: [HealthBar] Configuration file saved.
-[00:45:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[00:45:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:45:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.4
-[00:45:28] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v2.3.4
-[00:45:28] [Server thread/INFO]:  
-[00:45:28] [Server thread/INFO]: =============================
-[00:45:28] [Server thread/INFO]: UltimateTimber 2.3.4 by Songoda <3!
-[00:45:28] [Server thread/INFO]: Action: Disabling...
-[00:45:28] [Server thread/INFO]: =============================
-[00:45:28] [Server thread/INFO]:  
-[00:45:28] [Server thread/INFO]: [MarriageMaster] Disabling MarriageMaster v2.6.8-Release
-[00:45:28] [Server thread/INFO]: [MarriageMaster] Cleaning database cache.
-[00:45:28] [Server thread/INFO]: [MarriageMaster] Database cache cleaned.
-[00:45:28] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown initiated...
-[00:45:28] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown completed.
-[00:45:28] [Craft Scheduler Thread - 3 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+[00:36:21] [User Authenticator #1/INFO]: UUID of player yumechandayo is 807ea693-0b78-3af2-aed4-276c2e86b113
+[00:36:21] [Server thread/INFO]: yumechandayo joined the game
+[00:36:21] [Server thread/INFO]: yumechandayo[/[0:0:0:0:0:0:0:1]:65210] logged in with entity id 239 at ([world]-34.03703489403148, 64.0, 468.5341512703316)
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/336, uuid='8872d4a2-4aa0-4c20-ac49-502c7066c272', l='ServerLevel[world]', x=-116.56, y=97.00, z=479.82, cpos=[-8, 29], tl=3260772, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Cleric'/606, uuid='ac6282cb-26b4-4a29-9712-3f56313790be', l='ServerLevel[world]', x=78.30, y=66.00, z=377.53, cpos=[4, 23], tl=4278309, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/607, uuid='f4f5025f-9a0e-4ded-947b-0ae979c44429', l='ServerLevel[world]', x=74.48, y=64.94, z=376.70, cpos=[4, 23], tl=1883204, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Leatherworker'/608, uuid='37baed20-f9c6-4789-8ea3-b7e300e7d408', l='ServerLevel[world]', x=78.40, y=66.00, z=376.92, cpos=[4, 23], tl=1890372, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Cartographer'/611, uuid='baad70b3-27a9-43f9-9adb-aab2b7a09fe2', l='ServerLevel[world]', x=77.82, y=66.00, z=383.14, cpos=[4, 23], tl=1042305, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Librarian'/612, uuid='a62e5566-ebfa-4a23-b590-56e0edabe0dd', l='ServerLevel[world]', x=78.79, y=66.00, z=378.53, cpos=[4, 23], tl=1875155, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Fletcher'/613, uuid='355697d4-ebe8-48da-ad18-e3c7dd42b514', l='ServerLevel[world]', x=77.27, y=66.00, z=383.75, cpos=[4, 23], tl=4484538, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Weaponsmith'/627, uuid='24801b2c-cf70-4941-b147-844089d2b4a7', l='ServerLevel[world]', x=107.50, y=66.56, z=403.69, cpos=[6, 25], tl=1827584, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Cartographer'/641, uuid='061bfa4f-7699-4ed8-9c1b-6eb309f86182', l='ServerLevel[world]', x=94.62, y=69.56, z=374.65, cpos=[5, 23], tl=4361951, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Cleric'/643, uuid='b4273b83-c367-4055-9ba6-d94126354dd0', l='ServerLevel[world]', x=106.50, y=66.56, z=397.31, cpos=[6, 24], tl=1226098, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityCow['Cow'/648, uuid='fcb6af2b-d0d9-4d63-bf38-9b606e02f5b8', l='ServerLevel[world]', x=-174.13, y=81.00, z=367.20, cpos=[-11, 22], tl=812630, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/728, uuid='109eb6b3-1227-4727-be74-708a4a02b1c6', l='ServerLevel[world]', x=106.48, y=78.94, z=347.32, cpos=[6, 21], tl=231258, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/737, uuid='f24c4ad5-7abd-483d-8887-d0b6af55f243', l='ServerLevel[world]', x=107.69, y=84.56, z=346.50, cpos=[6, 21], tl=231164, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/739, uuid='1aee978c-9cf4-4ca3-9b5c-501a45a2518c', l='ServerLevel[world]', x=112.25, y=69.94, z=352.20, cpos=[7, 22], tl=1214361, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/761, uuid='365d493e-50c5-4ff3-9db7-fe4ce48d0503', l='ServerLevel[world]', x=116.25, y=75.94, z=346.46, cpos=[7, 21], tl=226809, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/762, uuid='2b71b94b-068f-4f97-9116-1bca1aab537e', l='ServerLevel[world]', x=116.18, y=72.94, z=347.81, cpos=[7, 21], tl=609239, v=false]
+[00:36:22] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Farmer'/763, uuid='24eeed6d-ea15-4095-ba99-7bcc15b26296', l='ServerLevel[world]', x=116.20, y=82.00, z=347.79, cpos=[7, 21], tl=226182, v=false]
+[00:38:26] [Server thread/INFO]: yumechandayo has made the advancement [Tactical Fishing]
+[00:44:52] [Server thread/INFO]: yumechandayo fell from a high place
+[00:44:57] [Server thread/INFO]: yumechandayo issued server command: /back
+[01:09:45] [Server thread/INFO]: yumechandayo issued server command: /home
+[01:10:12] [Server thread/INFO]: yumechandayo issued server command: /back
+[01:10:39] [Server thread/INFO]: yumechandayo issued server command: /home
+[01:11:16] [Server thread/INFO]: yumechandayo issued server command: /back
+[01:11:36] [Server thread/INFO]: yumechandayo issued server command: /home
+[01:12:07] [Server thread/INFO]: yumechandayo issued server command: /back
+[01:14:38] [Server thread/INFO]: yumechandayo issued server command: /home
+[01:15:53] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/10289, uuid='6a00c270-83a4-4f3f-bb42-a794a53025cd', l='ServerLevel[world_nether]', x=163.22, y=31.50, z=199.13, cpos=[10, 12], tl=73161, v=false]
+[01:17:07] [Server thread/INFO]: yumechandayo fell from a high place
+[01:17:10] [Server thread/INFO]: yumechandayo issued server command: /back
+[01:21:54] [Server thread/INFO]: yumechandayo issued server command: /home
+[01:23:52] [Server thread/INFO]: yumechandayo lost connection: Disconnected
+[01:23:52] [Server thread/INFO]: yumechandayo left the game
+[02:13:38] [Craft Scheduler Thread - 895 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
  If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
-[00:45:28] [Thread-11/WARN]: [MarriageMaster] [31mThe updater could not find any files for the project id 74734 [0m
-[00:45:29] [Server thread/INFO]: [MarriageMaster] [31m Marriage Master has been disabled. [33m :( [0m
-[00:45:29] [Craft Scheduler Thread - 6 - BlockLocker/WARN]: [BlockLocker] Error during update check (you can disable automatic updates in the config file)
-java.io.IOException: java.lang.IllegalStateException: zip file closed
-	at nl.rutgerkok.blocklocker.impl.updater.UpdateChecker.checkForUpdatesSync(UpdateChecker.java:50) ~[BlockLocker.jar:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater.updateSync(Updater.java:133) ~[BlockLocker.jar:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater.access$1(Updater.java:130) ~[BlockLocker.jar:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater$1.run(Updater.java:35) ~[BlockLocker.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-372]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-372]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-372]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:831) ~[?:?]
-	at java.util.zip.ZipFile.getEntry(ZipFile.java:330) ~[?:?]
-	at java.util.jar.JarFile.getEntry(JarFile.java:518) ~[?:?]
-	at java.util.jar.JarFile.getJarEntry(JarFile.java:473) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at nl.rutgerkok.blocklocker.impl.updater.UpdateChecker.checkForUpdatesSync(UpdateChecker.java:45) ~[BlockLocker.jar:?]
-	... 9 more
-[00:45:29] [Craft Scheduler Thread - 6 - BlockLocker/WARN]: [BlockLocker] Plugin BlockLocker v1.11 generated an exception while executing task 2
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:831) ~[?:?]
-	at java.util.zip.ZipFile.getEntry(ZipFile.java:330) ~[?:?]
-	at java.util.jar.JarFile.getEntry(JarFile.java:518) ~[?:?]
-	at java.util.jar.JarFile.getJarEntry(JarFile.java:473) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater.updateSync(Updater.java:142) ~[BlockLocker.jar:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater.access$1(Updater.java:130) ~[BlockLocker.jar:?]
-	at nl.rutgerkok.blocklocker.impl.updater.Updater$1.run(Updater.java:35) ~[BlockLocker.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-372]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-372]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-372]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[00:45:32] [Craft Scheduler Thread - 2 - SkinsRestorer/WARN]: [SkinsRestorer] Plugin SkinsRestorer v14.2.4 generated an exception while executing task 15
-java.lang.IllegalStateException: zip file closed
-	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:831) ~[?:?]
-	at java.util.zip.ZipFile.getEntry(ZipFile.java:330) ~[?:?]
-	at java.util.jar.JarFile.getEntry(JarFile.java:518) ~[?:?]
-	at java.util.jar.JarFile.getJarEntry(JarFile.java:473) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:108) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at net.skinsrestorer.shared.utils.connections.MojangAPI.readURL(MojangAPI.java:285) ~[SkinsRestorer.jar:?]
-	at net.skinsrestorer.shared.utils.connections.MojangAPI.readURL(MojangAPI.java:271) ~[SkinsRestorer.jar:?]
-	at net.skinsrestorer.shared.utils.connections.MojangAPI.getUUIDAshcon(MojangAPI.java:135) ~[SkinsRestorer.jar:?]
-	at net.skinsrestorer.shared.utils.connections.ServiceChecker.checkServices(ServiceChecker.java:47) ~[SkinsRestorer.jar:?]
-	at net.skinsrestorer.shared.utils.SharedMethods.runServiceCheck(SharedMethods.java:55) ~[SkinsRestorer.jar:?]
-	at net.skinsrestorer.bukkit.SkinsRestorerBukkit.lambda$pluginStartup$7(SkinsRestorerBukkit.java:259) ~[SkinsRestorer.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.18.2.jar:git-Paper-372]
-	at org.bukkit.craftbukkit.v1_18_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.18.2.jar:git-Paper-372]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.18.2.jar:git-Paper-372]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[00:45:34] [Server thread/ERROR]: Nag author: 'Zenexer' of 'Essentials' about the following: This plugin is not properly shutting down its async tasks when it is being shut down. This task may throw errors during the final shutdown logs and might not complete before process dies.
-[00:45:34] [Server thread/INFO]: Saving players
-[00:45:34] [Server thread/INFO]: Saving worlds
-[00:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:45:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:45:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:45:34] [Server thread/INFO]: Flushing Chunk IO
-[00:45:34] [Server thread/INFO]: Closing Thread Pool
-[00:45:34] [Server thread/INFO]: Closing Server
+[04:32:38] [Craft Scheduler Thread - 1677 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[06:51:38] [Craft Scheduler Thread - 2460 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[09:10:38] [Craft Scheduler Thread - 3241 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[11:29:38] [Craft Scheduler Thread - 4024 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[13:42:44] [User Authenticator #2/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[13:42:44] [Server thread/INFO]: Vxzkyy joined the game
+[13:42:44] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:50833] logged in with entity id 13340 at ([world]-5.5, 64.0, -5.5)
+[13:43:15] [Server thread/INFO]: Vxzkyy issued server command: /plugins
+[13:47:00] [Server thread/INFO]: Vxzkyy has made the advancement [Stone Age]
+[13:47:15] [Server thread/INFO]: Vxzkyy has made the advancement [Getting an Upgrade]
+[13:48:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:48:38] [Craft Scheduler Thread - 4805 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[13:48:56] [Server thread/INFO]: Vxzkyy has made the advancement [Monster Hunter]
+[13:49:53] [Server thread/INFO]: Vxzkyy issued server command: /plugins
+[13:51:09] [Server thread/INFO]: Vxzkyy has made the advancement [Acquire Hardware]
+[13:51:42] [Server thread/INFO]: Vxzkyy has made the advancement [Not Today, Thank You]
+[13:55:17] [Server thread/INFO]: Vxzkyy has made the advancement [Isn't It Iron Pick]
+[13:56:08] [Server thread/INFO]: Vxzkyy has made the advancement [Suit Up]
+[13:56:12] [Server thread/INFO]: Vxzkyy has made the advancement [Sweet Dreams]
+[13:57:08] [Server thread/INFO]: Vxzkyy has made the advancement [Diamonds!]
+[14:01:11] [Server thread/INFO]: Vxzkyy fell from a high place
+[14:01:31] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[14:01:31] [Server thread/INFO]: Vxzkyy left the game
+[14:10:11] [User Authenticator #3/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[14:10:12] [Server thread/INFO]: Vxzkyy joined the game
+[14:10:12] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:59083] logged in with entity id 16355 at ([world]47.183501352508294, 64.45166525685842, -30.337392967613617)
+[14:17:56] [Server thread/INFO]: Vxzkyy issued server command: /ip
+[14:23:31] [Server thread/INFO]: Vxzkyy issued server command: /seen
+[14:23:37] [Server thread/INFO]: Vxzkyy issued server command: /seen Vxzkyy
+[14:23:40] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[14:23:40] [Server thread/INFO]: Vxzkyy left the game
+[14:24:15] [User Authenticator #4/INFO]: UUID of player TinnZx is 93ea4c7c-5733-3157-9a1a-5a28eeeabc46
+[14:24:15] [Server thread/INFO]: TinnZx joined the game
+[14:24:15] [Server thread/INFO]: TinnZx[/[0:0:0:0:0:0:0:1]:51457] logged in with entity id 20846 at ([world]119.69999998807907, 77.27709196466147, 382.5066948110538)
+[14:24:20] [Server thread/INFO]: Named entity EntityIronGolem['????????? '/21224, uuid='32f556f0-e88b-41c0-9cb2-3703edb15910', l='ServerLevel[world]', x=21.64, y=32.00, z=243.30, cpos=[1, 15], tl=339, v=true] died: ?????????  tried to swim in lava
+[14:24:25] [Server thread/INFO]: TinnZx issued server command: /ip
+[14:24:29] [Server thread/INFO]: TinnZx issued server command: /seen
+[14:24:38] [Server thread/INFO]: TinnZx issued server command: /seen TinnZx
+[14:24:49] [Server thread/INFO]: TinnZx issued server command: /plugins
+[14:26:29] [Server thread/INFO]: TinnZx issued server command: /seen TinnZx
+[14:26:42] [Server thread/INFO]: TinnZx issued server command: /seen
+[14:26:50] [Server thread/INFO]: TinnZx lost connection: Disconnected
+[14:26:50] [Server thread/INFO]: TinnZx left the game
+[14:27:06] [User Authenticator #5/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[14:27:07] [Server thread/INFO]: Vxzkyy joined the game
+[14:27:07] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:51531] logged in with entity id 22810 at ([world]-567.9510661427421, 62.07326432466506, 478.7393725104131)
+[14:27:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /mail 
+[14:27:45] [Server thread/INFO]: Command Help: /mail
+[14:27:45] [Server thread/INFO]: Description: Manages inter-player, intra-server mail.
+[14:27:45] [Server thread/INFO]: Usage(s);
+[14:27:45] [Server thread/INFO]: /mail read [page] - Reads the first (or specified) page of your mail
+[14:27:45] [Server thread/INFO]: /mail clear [number] - Clears either all or the specified mail(s)
+[14:27:45] [Server thread/INFO]: /mail send <player> <message> - Sends the specified player the given message
+[14:27:45] [Server thread/INFO]: /mail sendall <message> - Sends all players the given message
+[14:27:45] [Server thread/INFO]: /mail sendtemp <player> <expire time> <message> - Sends the specified player the given message which will expire in the specified time
+[14:27:45] [Server thread/INFO]: /mail sendtempall <expire time> <message> - Sends all players the given message which will expire in the specified time
+[14:28:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /mail send Vxzkyy Hello
+[14:28:09] [Server thread/INFO]: Mail sent!
+[14:29:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /mail read
+[14:29:24] [Server thread/INFO]: Error: Only in-game players can use mail read.
+[14:29:38] [Server thread/INFO]: Vxzkyy was slain by Iron Golem
+[14:29:42] [Server thread/INFO]: Vxzkyy issued server command: /back
+[14:30:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /mail send Vxzkyy can you type something?
+[14:30:10] [Server thread/INFO]: Mail sent!
+[14:34:12] [User Authenticator #6/INFO]: UUID of player TinnZx is 93ea4c7c-5733-3157-9a1a-5a28eeeabc46
+[14:34:12] [Server thread/INFO]: TinnZx joined the game
+[14:34:12] [Server thread/INFO]: TinnZx[/[0:0:0:0:0:0:0:1]:51697] logged in with entity id 25096 at ([world]41.90512024534272, 81.00734385980675, 24.639399194503987)
+[14:34:25] [Async Chat Thread - #0/INFO]: <Vxzkyy> who are you?
+[14:34:31] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[14:34:34] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:34:46] [Async Chat Thread - #0/INFO]: <TinnZx> hello
+[14:34:49] [Async Chat Thread - #0/INFO]: <Vxzkyy> yo
+[14:35:29] [Async Chat Thread - #0/INFO]: <TinnZx> how can you come in this server?
+[14:35:50] [Async Chat Thread - #0/INFO]: <Vxzkyy> im just watching fairuzm22 live
+[14:38:15] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:38:29] [Server thread/INFO]: TinnZx issued server command: /
+[14:39:23] [Async Chat Thread - #1/INFO]: <TinnZx> have you any questions?
+[14:39:33] [Async Chat Thread - #1/INFO]: <Vxzkyy> ummm no
+[14:39:39] [Async Chat Thread - #1/INFO]: <Vxzkyy> i mean yes
+[14:39:45] [Async Chat Thread - #1/INFO]: <TinnZx> ???
+[14:39:46] [Async Chat Thread - #1/INFO]: <Vxzkyy> when fairuz live again
+[14:40:06] [Async Chat Thread - #1/INFO]: <TinnZx> i dont know who is fairuz
+[14:40:25] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[14:40:25] [Server thread/INFO]: Vxzkyy left the game
+[14:43:29] [Server thread/INFO]: TinnZx issued server command: /getpos
+[14:43:32] [Server thread/INFO]: TinnZx issued server command: /home
+[14:43:42] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[14:43:42] [User Authenticator #7/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[14:43:43] [Server thread/INFO]: Vxzkyy joined the game
+[14:43:43] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:52066] logged in with entity id 26594 at ([world]-302.5068843420042, 51.0, 950.8606040207418)
+[14:43:43] [Server thread/INFO]: Named entity EntityBat['??        '/26873, uuid='23499e99-4c24-4c47-b25c-48fb1321d27d', l='ServerLevel[world]', x=-319.93, y=-17.26, z=871.79, cpos=[-20, 54], tl=5455, v=true] died: ??         burned to death
+[14:43:52] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[14:43:53] [Async Chat Thread - #2/INFO]: <Vxzkyy> crash xD
+[14:43:59] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:46:04] [Async Chat Thread - #3/INFO]: <TinnZx> what are you doing
+[14:46:17] [Async Chat Thread - #3/INFO]: <Vxzkyy> im survival
+[14:46:25] [Async Chat Thread - #3/INFO]: <TinnZx> ok
+[14:46:44] [Server thread/INFO]: TinnZx issued server command: /home
+[14:46:47] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:48:24] [Async Chat Thread - #4/INFO]: <TinnZx> is this server lag?
+[14:48:29] [Async Chat Thread - #4/INFO]: <Vxzkyy> i think no
+[14:49:11] [Async Chat Thread - #4/INFO]: <TinnZx> what country are you playing minecraft
+[14:49:22] [Async Chat Thread - #4/INFO]: <Vxzkyy> indonesia
+[14:51:10] [Async Chat Thread - #5/INFO]: <TinnZx> i will change ip server tomorrow because i want to move server to other cpmputer
+[14:51:16] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:51:22] [Server thread/INFO]: TinnZx issued server command: /
+[14:51:24] [Async Chat Thread - #5/INFO]: <Vxzkyy> Okay
+[14:51:54] [Server thread/INFO]: TinnZx issued server command: /
+[14:52:32] [Async Chat Thread - #6/INFO]: <Vxzkyy> pink sheep :D
+[14:52:50] [Async Chat Thread - #6/INFO]: <TinnZx> ah i see
+[14:53:03] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:53:59] [Server thread/INFO]: TinnZx issued server command: /plugins
+[14:54:10] [Server thread/INFO]: TinnZx issued server command: /
+[14:54:52] [Server thread/INFO]: TinnZx issued server command: /
+[14:55:15] [Server thread/INFO]: TinnZx issued server command: /about
+[14:55:32] [Server thread/INFO]: TinnZx issued server command: /
+[14:55:37] [Server thread/INFO]: TinnZx issued server command: /ac
+[14:55:48] [Server thread/INFO]: TinnZx issued server command: //
+[14:56:01] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[14:58:52] [Server thread/INFO]: TinnZx issued server command: /
+[14:59:14] [Server thread/INFO]: TinnZx issued server command: /home
+[14:59:17] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[14:59:25] [Server thread/INFO]: TinnZx issued server command: /home
+[14:59:25] [Server thread/INFO]: Named entity EntityIronGolem['????????? '/31015, uuid='6404555e-f099-4eb5-ba8a-dc54a61154ff', l='ServerLevel[world]', x=20.70, y=32.00, z=242.90, cpos=[1, 15], tl=319, v=true] died: ?????????  tried to swim in lava
+[15:00:01] [Server thread/INFO]: TinnZx issued server command: /gamemode survival
+[15:00:02] [Server thread/INFO]: TinnZx issued server command: /fly
+[15:01:03] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:01:06] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:01:22] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:01:52] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:02:06] [Server thread/INFO]: Vxzkyy issued server command: /ping
+[15:02:08] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:02:10] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:03:48] [Server thread/INFO]: Vxzkyy has made the advancement [Hot Stuff]
+[15:04:28] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:04:36] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:05:00] [Server thread/INFO]: TinnZx issued server command: /home
+[15:05:27] [Server thread/INFO]: TinnZx issued server command: /flyspeed 2
+[15:07:06] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:07:16] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:07:19] [Server thread/INFO]: TinnZx issued server command: /home
+[15:07:57] [Server thread/INFO]: TinnZx issued server command: /flyspeed 1
+[15:08:32] [Server thread/INFO]: TinnZx issued server command: /getpos
+[15:09:06] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:09:11] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:09:54] [Server thread/INFO]: TinnZx issued server command: /home
+[15:09:57] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:11:15] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:12:16] [Server thread/INFO]: Vxzkyy issued server command: /coords
+[15:12:23] [Server thread/INFO]: TinnZx issued server command: /coords
+[15:12:41] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:17:49] [Server thread/INFO]: TinnZx issued server command: /effect give TinnZx minecraft:night_vision
+[15:17:49] [Server thread/INFO]: [TinnZx: Applied effect Night Vision to TinnZx]
+[15:17:55] [Server thread/INFO]: TinnZx issued server command: /tp TinnZx
+[15:18:01] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:18:33] [Server thread/INFO]: TinnZx issued server command: /effect give TinnZx minecraft:night_vision 99999
+[15:18:33] [Server thread/INFO]: [TinnZx: Applied effect Night Vision to TinnZx]
+[15:26:15] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[15:26:15] [Server thread/INFO]: Vxzkyy left the game
+[15:26:18] [Server thread/INFO]: TinnZx issued server command: /home
+[15:26:53] [Server thread/INFO]: TinnZx issued server command: /gamemode survival
+[15:27:26] [User Authenticator #8/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[15:27:27] [Server thread/INFO]: Vxzkyy joined the game
+[15:27:27] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:54905] logged in with entity id 38977 at ([world]-312.5062582242188, -34.494686696184694, 997.4711995305136)
+[15:28:02] [Server thread/INFO]: TinnZx issued server command: /gamemode toggle
+[15:28:13] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:28:24] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:30:37] [Server thread/INFO]: Vxzkyy was slain by Cave Spider
+[15:30:49] [Server thread/INFO]: TinnZx issued server command: /home
+[15:32:34] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[15:32:34] [Server thread/INFO]: Vxzkyy left the game
+[15:33:39] [User Authenticator #9/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[15:33:39] [Server thread/INFO]: Vxzkyy joined the game
+[15:33:39] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:54971] logged in with entity id 41125 at ([world]-318.2989747935438, 62.9375, 945.2765249076895)
+[15:34:07] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[15:35:21] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:35:49] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:35:54] [Server thread/INFO]: Villager EntityVillager['Villager'/41127, uuid='1deb8c13-b715-4784-9f02-1893c541d6f6', l='ServerLevel[world]', x=-311.20, y=70.18, z=936.50, cpos=[-20, 58], tl=91374, v=true] died, message: 'Villager burned to death'
+[15:36:08] [Server thread/INFO]: Vxzkyy has made the advancement [Ice Bucket Challenge]
+[15:37:44] [Server thread/INFO]: Vxzkyy was impaled by Drowned
+[15:39:40] [Server thread/INFO]: TinnZx issued server command: /home
+[15:42:10] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:10] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:42:16] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:16] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:42:17] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:17] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:42:24] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:24] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:42:25] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:25] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:42:25] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[15:42:25] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[15:45:45] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:46:06] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[15:46:14] [Server thread/INFO]: TinnZx issued server command: /gamemode creative
+[15:46:28] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[15:46:28] [Server thread/INFO]: Vxzkyy left the game
+[15:46:41] [Server thread/INFO]: TinnZx issued server command: /gamemode survival
+[15:47:12] [Server thread/INFO]: TinnZx issued server command: /ice
+[15:47:21] [Server thread/INFO]: TinnZx issued server command: /iname
+[15:47:27] [Server thread/INFO]: TinnZx issued server command: //chunk
+[15:47:43] [User Authenticator #10/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[15:47:43] [Server thread/INFO]: Vxzkyy joined the game
+[15:47:43] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:55205] logged in with entity id 44297 at ([world]-305.71438419890563, 51.0, 950.8786236978899)
+[15:47:53] [Server thread/INFO]: TinnZx issued server command: /ban
+[15:47:56] [Server thread/INFO]: TinnZx issued server command: /
+[15:47:58] [Server thread/INFO]: TinnZx issued server command: /
+[15:48:03] [Server thread/INFO]: TinnZx issued server command: /balance
+[15:48:08] [Server thread/INFO]: TinnZx issued server command: /balancetop
+[15:49:51] [Server thread/INFO]: TinnZx issued server command: /mail send TinnZx wdkawpda
+[15:50:17] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /mail send TinnZx dfeguiohfsihfesf
+[15:50:17] [Server thread/INFO]: Mail sent!
+[15:50:25] [Server thread/INFO]: TinnZx issued server command: /mail read
+[15:50:56] [Server thread/INFO]: TinnZx issued server command: /memory
+[15:52:17] [Server thread/INFO]: TinnZx issued server command: /disposal
+[15:52:36] [Server thread/INFO]: TinnZx issued server command: /baltop
+[16:02:37] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:03:23] [Server thread/INFO]: Vxzkyy has made the advancement [We Need to Go Deeper]
+[16:03:55] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[16:03:55] [Server thread/INFO]: Vxzkyy left the game
+[16:05:04] [User Authenticator #11/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[16:05:04] [Server thread/INFO]: Vxzkyy joined the game
+[16:05:04] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:58540] logged in with entity id 50460 at ([world_nether]-67.95517275073097, 74.0, 149.27441437862734)
+[16:07:23] [Server thread/INFO]: TinnZx issued server command: /home]
+[16:07:25] [Server thread/INFO]: TinnZx issued server command: /homw
+[16:07:26] [Server thread/INFO]: TinnZx tried to swim in lava
+[16:07:30] [Async Chat Thread - #7/INFO]: <Vxzkyy> f
+[16:07:36] [Async Chat Thread - #7/INFO]: <TinnZx> lol
+[16:07:38] [Craft Scheduler Thread - 5555 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[16:07:47] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[16:07:51] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:09:08] [Server thread/INFO]: TinnZx has completed the challenge [Hot Tourist Destinations]
+[16:09:26] [Server thread/INFO]: TinnZx issued server command: /gamemode survival
+[16:09:34] [Async Chat Thread - #8/INFO]: <TinnZx> sry
+[16:09:39] [Async Chat Thread - #8/INFO]: <Vxzkyy> its okay
+[16:10:45] [Server thread/INFO]: TinnZx issued server command: /gamemode spectator
+[16:10:48] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:11:22] [Server thread/INFO]: Vxzkyy was slain by Hoglin
+[16:11:29] [Server thread/INFO]: Vxzkyy issued server command: /back
+[16:11:32] [Server thread/INFO]: Vxzkyy issued server command: /back
+[16:14:48] [Server thread/INFO]: TinnZx issued server command: /home
+[16:14:53] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:15:30] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:15:57] [Server thread/INFO]: TinnZx issued server command: /effect give TinnZx minecraft:night_vision 99999
+[16:15:57] [Server thread/INFO]: [TinnZx: Applied effect Night Vision to TinnZx]
+[16:16:29] [Server thread/INFO]: TinnZx issued server command: /tp TinnZx
+[16:16:38] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:17:19] [Async Chat Thread - #9/INFO]: <TinnZx> why you build your house underground
+[16:17:21] [Server thread/INFO]: Vxzkyy has made the advancement [Enchanter]
+[16:17:42] [Async Chat Thread - #9/INFO]: <Vxzkyy> Im too lazy to build :D
+[16:17:53] [Async Chat Thread - #9/INFO]: <TinnZx> lol
+[16:19:56] [Async Chat Thread - #10/INFO]: <Vxzkyy> BRUH
+[16:20:01] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:20:12] [Async Chat Thread - #10/INFO]: <TinnZx> what happen
+[16:20:40] [Async Chat Thread - #10/INFO]: <Vxzkyy> creeper blow up my chest
+[16:23:43] [Server thread/INFO]: TinnZx issued server command: /tp Vxzkyy
+[16:23:47] [Server thread/INFO]: TinnZx issued server command: /home
+[16:23:53] [Server thread/INFO]: TinnZx issued server command: /gamemode survival
+[16:23:54] [Server thread/INFO]: TinnZx issued server command: /home
+[16:24:29] [Server thread/INFO]: TinnZx issued server command: /home
+[16:27:29] [Server thread/INFO]: Vxzkyy issued server command: /enick
+[16:27:36] [Server thread/INFO]: TinnZx issued server command: /fly
+[16:27:50] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[16:27:50] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[16:27:55] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[16:27:55] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[16:27:57] [Server thread/INFO]: TinnZx issued server command: /summon minecraft:villager
+[16:27:57] [Server thread/INFO]: [TinnZx: Summoned new Villager]
+[16:28:53] [Server thread/INFO]: TinnZx issued server command: /enick
+[16:55:54] [Server thread/WARN]: Vxzkyy moved wrongly!
+[16:58:16] [Server thread/INFO]: Villager EntityVillager['Librarian'/59096, uuid='94f8ca51-5e81-4e3e-8790-c480748473c5', l='ServerLevel[world]', x=65.93, y=64.13, z=338.90, cpos=[4, 21], tl=36384, v=true] died, message: 'Librarian was impaled by Drowned'
+[16:58:23] [Server thread/INFO]: Villager EntityVillager['Librarian'/59081, uuid='9824e688-7dcb-4933-9a5c-243a91549fa5', l='ServerLevel[world]', x=67.89, y=64.13, z=338.81, cpos=[4, 21], tl=36553, v=true] died, message: 'Librarian was impaled by Drowned'
+[16:58:29] [Server thread/INFO]: Villager EntityVillager['Librarian'/59045, uuid='1583446f-10a1-4ba3-a5d4-838dda48f4f1', l='ServerLevel[world]', x=69.89, y=64.13, z=338.81, cpos=[4, 21], tl=36778, v=true] died, message: 'Librarian was impaled by Drowned'
+[17:04:25] [Server thread/INFO]: Vxzkyy fell from a high place
+[17:04:45] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[17:04:45] [Server thread/INFO]: Vxzkyy left the game
+[17:05:33] [User Authenticator #12/INFO]: UUID of player Vxzkyy is cf4dda70-06ba-39d6-8abe-156c3e99e90b
+[17:05:33] [Server thread/INFO]: Vxzkyy joined the game
+[17:05:33] [Server thread/INFO]: Vxzkyy[/[0:0:0:0:0:0:0:1]:59389] logged in with entity id 70619 at ([world]-305.7707933789016, 51.0, 951.6061327797146)
+[17:11:11] [Server thread/INFO]: Vxzkyy lost connection: Disconnected
+[17:11:11] [Server thread/INFO]: Vxzkyy left the game
+[17:23:10] [Server thread/INFO]: Villager EntityVillager['Cartographer'/57062, uuid='09488bcf-e549-4805-90b5-c6ff9b212c36', l='ServerLevel[world]', x=139.30, y=57.00, z=383.30, cpos=[8, 23], tl=4462215, v=true] died, message: 'Cartographer was slain by Zombie'
+[18:26:38] [Craft Scheduler Thread - 6300 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[19:21:12] [Server thread/INFO]: Villager EntityVillager['Farmer'/57074, uuid='589f6ef4-fe3f-481d-8dbb-da020e8fc590', l='ServerLevel[world]', x=104.49, y=66.00, z=396.30, cpos=[6, 24], tl=5535370, v=true] died, message: 'Farmer was slain by Zombie'
+[20:13:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@3ca0efb5[id=87c1d994-b9c1-3ff8-9697-35db84701dfb,name=Xcyte,properties={},legacy=false] (/[0:0:0:0:0:0:0:1]:65525) lost connection: Disconnected
+[20:13:04] [User Authenticator #13/INFO]: UUID of player Xcyte is 87c1d994-b9c1-3ff8-9697-35db84701dfb
+[20:22:22] [Server thread/INFO]: Villager EntityVillager['Cleric'/57061, uuid='b4273b83-c367-4055-9ba6-d94126354dd0', l='ServerLevel[world]', x=120.70, y=68.00, z=382.70, cpos=[7, 23], tl=1594915, v=true] was struck by lightning EntityLightning['Lightning Bolt'/103459, uuid='c3ae647e-c01b-4967-8125-ff9f20a62ab6', l='ServerLevel[world]', x=120.50, y=68.00, z=382.50, cpos=[7, 23], tl=1, v=true].
+[20:45:38] [Craft Scheduler Thread - 7051 - SkinsRestorer/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[22:45:29] [Server thread/INFO]: TinnZx lost connection: Disconnected
+[22:45:29] [Server thread/INFO]: TinnZx left the game
+[22:45:36] [Server thread/INFO]: Stopping server
+[22:45:36] [Server thread/INFO]: [SinglePlayerSleep] Disabling SinglePlayerSleep v1.13_2.13.48
+[22:45:36] [Server thread/INFO]: §a**************************************§r
+[22:45:36] [Server thread/INFO]: §eSinglePlayerSleep v1.13_2.13.48§r is DISABLED
+[22:45:36] [Server thread/INFO]: §a**************************************§r
+[22:45:36] [Server thread/INFO]: [DivineDrop] Disabling DivineDrop v2.9
+[22:45:36] [Server thread/INFO]: [SimpleSit] Disabling SimpleSit v1.7
+[22:45:36] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.11
+[22:45:36] [Server thread/INFO]: [isSlimeChunk] Disabling isSlimeChunk v1.0.1
+[22:45:36] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.7
+[22:45:36] [Server thread/INFO]: [PixelPrinter] Disabling PixelPrinter v1.0.46
+[22:45:36] [Server thread/INFO]: [HealthBar] Disabling HealthBar v1.8.1
+[22:45:36] [Server thread/INFO]: [HealthBar] Configuration file saved.
+[22:45:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[22:45:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:45:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.4
+[22:45:36] [Server thread/INFO]: [UltimateTimber] Disabling UltimateTimber v2.3.4
+[22:45:36] [Server thread/INFO]:  
+[22:45:36] [Server thread/INFO]: =============================
+[22:45:36] [Server thread/INFO]: UltimateTimber 2.3.4 by Songoda <3!
+[22:45:36] [Server thread/INFO]: Action: Disabling...
+[22:45:36] [Server thread/INFO]: =============================
+[22:45:36] [Server thread/INFO]:  
+[22:45:36] [Server thread/INFO]: [MarriageMaster] Disabling MarriageMaster v2.6.8-Release
+[22:45:36] [Server thread/INFO]: [MarriageMaster] Cleaning database cache.
+[22:45:36] [Server thread/INFO]: [MarriageMaster] Database cache cleaned.
+[22:45:36] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown initiated...
+[22:45:36] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Shutdown completed.
+[22:45:36] [Server thread/INFO]: [MarriageMaster] [31m Marriage Master has been disabled. [33m :( [0m
+[22:45:36] [Server thread/INFO]: Saving players
+[22:45:36] [Server thread/INFO]: Saving worlds
+[22:45:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:45:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:45:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:45:38] [Server thread/INFO]: Flushing Chunk IO
+[22:45:38] [Server thread/INFO]: Closing Thread Pool
+[22:45:38] [Server thread/INFO]: Closing Server
